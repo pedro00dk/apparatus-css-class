@@ -28,5 +28,5 @@ cx(['foo', ['bar', ['baz']]]) // => 'foo bar baz'
 cx({ foo: true, bar: false, baz: 1 }) // => 'foo baz'
 
 // mix and match
-cx('foo', ['bar', { baz: true, qux: false }]) // => 'foo bar baz'
+cx(false && 'foo', ['bar', { baz: true, qux: 0 }]) // => 'bar baz'
 ```
