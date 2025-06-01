@@ -29,7 +29,7 @@
         "util"
     ],
     "scripts": {
-        "build": "vite build",
+        "build": "vite build && tsc",
         "test": "node --test ./**/*.test.*"
     },
     "devDependencies": {
