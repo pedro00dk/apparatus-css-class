@@ -1,7 +1,7 @@
 {
     "name": "@_apparatus_/css-class",
     "description": "A tiny utility for conditionally joining CSS classes.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "license": "MIT",
     "repository": {
